@@ -1,0 +1,437 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+
+.navContainer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 25px;
+    font-size: 15px;
+    transition: all 0.2s;
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+    background-size: cover;
+}
+
+.texto {
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navContainer ul li a:hover {
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+
+}
+
+.navContainer ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+
+.fondo {
+    background-image: url(Imagenes/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*esta fue la forma que mejor me se para centrar el texto con la img xd*/
+.navtext {
+    position: relative;
+    top: 15px;
+    
+}
+
+.navtext ul li a:hover {
+    transition: all 1s;
+    background: linear-gradient(90deg, rgba(0, 67, 255, 1) 4%, rgba(123, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+}
+
+#desplegable ul li {
+    position: relative;
+    float: inline-start;
+    margin: 0;
+    padding: 0;
+}
+
+#desplegable ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+#desplegable ul li:hover>ul {
+    display: block;
+}
+
+@font-face {
+    font-family: disgaea;
+    src: url(font/Boge.ttf);
+}
+
+body {
+    font-family: disgaea;
+}
+
+
+.text_index {
+    padding: 100px;
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    align-items: center;
+
+}
+
+.text_index p a {
+    text-decoration: none;
+}
+
+.prinny {
+    max-width: 150px;
+    max-height: 150px;
+    margin-left: 525px;
+}
+
+.q {
+    text-decoration: none;
+    text-decoration-color: transparent;
+}
+
+.final {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+    font-size: 25px;
+    position: relative;
+    padding: 20px;
+    width: 1500px;
+    background: linear-gradient(90deg, rgba(0, 67, 255, 1) 4%, rgba(123, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+}
+
+.dis {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    justify-items: start;
+    font-size: 15px;
+    width: 900px;
+    height: 240px;
+    overflow: hidden;
+}
+
+.dis2 {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    justify-items: start;
+    font-size: 15px;
+    width: 900px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.spinn {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: start;
+    font-size: 15px;
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.Imagen2 {
+    margin-left: 940px;
+    margin-top: -200px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+}
+
+#border {
+    background-image: url(imagenes/Border.png);
+    margin-top: 100px;
+    background-size: 1500px 1500px;
+    background-repeat: no-repeat;
+    margin-left: 940px;
+    z-index: -1;
+    position: absolute;
+}
+
+.juegos {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.disgaea1 {
+    position: absolute;
+    top: 550px;
+    left: 950px;
+    height: 450px;
+    width: 300px;
+}
+
+.d1 {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    justify-items: start;
+    font-size: 15px;
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.disgaea2 {
+    position: absolute;
+    top: 1470px;
+    left: 950px;
+    height: 450px;
+    width: 300px;
+}
+
+.disgaea3 {
+    position: absolute;
+    top: 2400px;
+    left: 950px;
+    height: 450px;
+    width: 300px;
+}
+
+.disgaea4 {
+    position: absolute;
+    top: 3350px;
+    left: 950px;
+    height: 450px;
+    width: 300px;
+}
+
+.disgaea5 {
+    position: absolute;
+    top: 4300px;
+    left: 950px;
+    height: 450px;
+    width: 300px;
+}
+
+.disgaea6 {
+    position: absolute;
+    top: 5250px;
+    left: 950px;
+    height: 450px;
+    width: 300px;
+}
+
+.video {
+    position: relative;
+    left: 200px;
+    z-index: 1;
+}
+
+.bordervideo {
+    padding: 10px;
+    background-image: url(Imagenes/Border.png);
+    z-index: 5;
+    background-size: 630px 380px;
+    background-repeat: no-repeat;
+    background-position: 175px -14px;
+
+}
+
+.p1 {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    justify-items: start;
+    font-size: 15px;
+    width: 850px;
+    height: 500px;
+}
+
+.Laharl {
+    position: absolute;
+    top: 350px;
+    width: 250px;
+    height: 250px;
+    left: 950px;
+}
+
+.talvez {
+    border: 1px solid;
+}
+
+.p2 {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: start;
+    font-size: 15px;
+    width: 850px;
+    height: 500px;
+    display: grid;
+}
+
+
+.p3 {
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    justify-items: start;
+    font-size: 15px;
+    width: 850px;
+    height: 350px;
+}
+
+.adell {
+    position: absolute;
+    left: 950px;
+    height: 200px;
+    width: 200px;
+    top: 880px;
+}
+
+.mao {
+    position: absolute;
+    left: 950px;
+    height: 250px;
+    width: 250px;
+    top: 1260px;
+}
+
+.valva {
+    position: absolute;
+    left: 950px;
+    height: 250px;
+    width: 250px;
+    top: 1660px;
+}
+
+.killia {
+    position: absolute;
+    left: 950px;
+    height: 250px;
+    width: 250px;
+    top: 2000px;
+}
+
+.zed {
+    position: absolute;
+    left: 950px;
+    height: 250px;
+    width: 250px;
+    top: 2350px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: ;
+}
+
+@media (max-width: 320px) {
+    .text_index {
+
+        width: 1rem;
+        margin-right: 320px;
+        font-size: 10px;
+    }
+
+    .prinny {
+        margin-left: 50px;
+    }
+
+    .final {
+        font-size: 9px;
+        width: 325px;
+        background-size: cover;
+    }
+
+    .fondo {
+        background-position: center;
+    }
+
+    .navtext{
+        position:relative;
+        z-index: 1;
+    }
+
+    .navContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imgNav { 
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 100px;
+    }
+
+    #menu{
+        display: none;
+    }
+    
+    
+    .menu_resp{
+        position:relative;
+    }
+    #desplegable2 ul li {
+        position: relative;
+        float: inline-start;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #desplegable2 ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 0;
+    }
+    
+    #desplegable2 ul li:hover>ul {
+        display: none !important;
+    }
+}
