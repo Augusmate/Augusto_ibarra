@@ -147,6 +147,8 @@ footer {
     height: 301px;
 }
 
+
+
 .lahar {
     grid-area: lahar;
 }
@@ -195,7 +197,101 @@ footer {
     grid-area: p6;
 }
 
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr; 
+    gap: 50px 50px;
+    grid-template-areas:
+        "d1 d1 disgaea"
+        "video1 video1 video1"
+        "disgaea2 d2 d2"
+        "video2 video2 video2"
+        "d3 d3 disgaea3"
+        "video3 video3 video3"
+        "disgaea4 d4 d4"
+        "video4 video4 video4"
+        "d5 d5 disgaea5"
+        "video5 video5 video5"
+        "disgaea6 d6 d6"
+        "video6 video6 video6";
+}
+
+.d1 {
+    grid-area: d1;
+}
+
+.disgaea {
+    grid-area: disgaea;
+}
+
+.video1 {
+    grid-area: video1;
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.disgaea2 {
+    grid-area: disgaea2;
+}
+
+.video2 {
+    grid-area: video2;
+}
+
+.d3 {
+    grid-area: d3;
+}
+
+.disgaea3 {
+    grid-area: disgaea3;
+}
+
+.video3 {
+    grid-area: video3;
+}
+
+.disgaea4 {
+    grid-area: disgaea4;
+}
+
+.d4 {
+    grid-area: d4;
+}
+
+.video4 {
+    grid-area: video4;
+}
+
+.d5 {
+    grid-area: d5;
+}
+
+.disgaea5 {
+    grid-area: disgaea5;
+}
+
+.video5 {
+    grid-area: video5;
+}
+
+.disgaea6 {
+    grid-area: disgaea6;
+}
+
+.d6 {
+    grid-area: d6;
+}
+
+.video6 {
+    grid-area: video6;
+}
+
 #img {
     height: 500px;
     width: 400px;
 }
+
