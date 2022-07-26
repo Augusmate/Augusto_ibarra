@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* font de la pag */
+
+@font-face {
+    font-family: disgaea;
+    src: url(../font/Boge.ttf);
+}
+
+.index {
+    overflow-y: hidden;
+}
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-image: url(../Imagenes/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: disgaea;
+    margin: 0;
+}
+
+footer {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+    background-size: cover;
+    width: 1400px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navContainer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    transition: all 0.2s;
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+    background-size: cover;
+}
+
+.navContainer ul li a:hover {
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+
+}
+
+.navContainer ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    padding: 15px;
+}
+
+
+.navtext {
+    font-size: 15px;
+    color: #ffff;
+    -webkit-text-stroke: 1px black;
+}
+
+.index_text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 400px;
+}
+
+.h1Index {
+    margin-bottom: 40px;
+}
+
+.usagif {
+    display: flex;
+    position: relative;
+    margin-top: -250px;
+    margin-left: 700px;
+    height: 200px;
+}
+
+.gif {
+    display: flex;
+    height: 200px;
+    width: 200x;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.hamburguesa {
+    color: #ffff;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+
+.pan {
+    margin-top: 50px;
+}
+
+.papafrita {
+    margin-top: 50px;
+}
+
+.tomate {
+    margin-top: 50px;
+}
+
+.grid {
+    color: #ffff;
+    margin-top: 50px;
+    margin-left: 200px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px 60px;
+    grid-template-areas:
+        "p1 p1 lahar"
+        "adell p2 p2"
+        "p3 p3 mao"
+        "valva p4 p4"
+        "p5 p5 killia"
+        "zed p6 p6";
+    width: 900px;
+    height: 301px;
+}
+
+.lahar {
+    grid-area: lahar;
+}
+
+.p1 {
+    grid-area: p1;
+}
+
+.p2 {
+    grid-area: p2;
+}
+
+.adell {
+    grid-area: adell;
+}
+
+.p3 {
+    grid-area: p3;
+}
+
+.mao {
+    grid-area: mao;
+}
+
+.p4 {
+    grid-area: p4;
+}
+
+.valva {
+    grid-area: valva;
+}
+
+.p5 {
+    grid-area: p5;
+}
+
+.killia {
+    grid-area: killia;
+}
+
+.zed {
+    grid-area: zed;
+}
+
+.p6 {
+    grid-area: p6;
+}
+
+#img {
+    height: 500px;
+    width: 400px;
+}
