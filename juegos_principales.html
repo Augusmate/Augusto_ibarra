@@ -10,20 +10,56 @@
     <!-- link css -->
     <link rel="stylesheet" href="estilos/main.css">
     <link rel="stylesheet" href="estilos/responsive.css">
-
+    <!-- link boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="headerContainer">
-        <nav class="navContainer">
-            <ul>
-                <img src="Imagenes/DisgaeaLogo.png" class="logo" alt="logo">
-                <li><a href="index.html" class="navtext">inicio</a></li>
-                <li><a href="que_es_disgaea.html" class="navtext">que es disgaea?</a></li>
-                <li><a href="personajes.html" class="navtext">personajes</a></li>
-                <li><a href="juegos_principales.html" class="navtext">juegos principales</a></li>
-                <li><a href="spinoff.html" class="navtext">spinoff</a></li>
-            </ul>
+        <nav class="si navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Imagenes/DisgaeaLogo.png" alt="" width="300" height="80">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que_es_disgaea.html">que es disgaea?</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Juegos principales
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="juegos_principales.html#D1">Disgaea</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D2">Disgaea 2</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D3">Disgaea 3</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D4">Disgaea 4</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D5">Disgaea 5</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D6">Disgaea 6</a></li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="personajes.html">personajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="spinoff.html">Spinoff</a>
+                            </li>
+                        </li>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -59,12 +95,6 @@
             <div>
                 <img class="disgaea1" id="img" src="Imagenes/D1.png" alt="Disgaea complete">
             </div>
-            <div class="bordervideo">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/nOsvsyIElRI?start=32"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
             <div class="d2">
                 <h2>
                     <p id="D2">Disgaea 2: cursed memories</p>
@@ -94,12 +124,6 @@
                     que
                     otro contenido extra</p>
             </div>
-            <div class="bordervideo">
-                <iframe class="video2" width="560" height="315" src="https://www.youtube.com/embed/MOUYyr54iiI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
             <img class="disgaea2" id="img" src="Imagenes/D2.png" alt="Portada Disgaea 2">
             <div class="d3">
                 <h2>
@@ -123,12 +147,6 @@
                     unas
                     nuevas</p>
             </div>
-            <div class="bordervideo">
-                <iframe class="video3" width="560" height="315" src="https://www.youtube.com/embed/ntHRAueqm3E"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
             <img class="disgaea3" id="img" src="Imagenes/D3.jpg" alt="portada Disgaea 3">
             <div class="d4">
                 <h2>
@@ -150,12 +168,6 @@
                     pc la
                     cual incluye todos los dlc</p>
             </div>
-            <div class="bordervideo">
-                <iframe class="video4" width="560" height="315" src="https://www.youtube.com/embed/CdkGNXfoF6k"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
             <img class="disgaea4" id="img" src="Imagenes/D4.jpg" alt="portada disgaea 4">
             <div class="d5">
                 <h2>
@@ -171,12 +183,6 @@
                 <p>esta entrega de solo contaria con un re lanzamiento, disgaea 5 complete+ el cual seria el port para
                     pc y
                     tendria todos los dlc</p>
-            </div>
-            <div class="bordervideo">
-                <iframe class="video5" width="560" height="315" src="https://www.youtube.com/embed/K-Spl5ALths"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
             </div>
             <img class="disgaea5" id="img" src="Imagenes/D5.png" alt="portada Disgaea 5">
             <div class="d6">
@@ -195,14 +201,38 @@
                     que
                     al igual que el d5 y d4 lo portea para pc y le da todos los dlc</p>
             </div>
-            <img class="disgaea6"  id="img" src="Imagenes/D6.jpg" alt="portada disgaea 6">
-            <div class="bordervideo">
-                <iframe class="video6" width="560" height="315" src="https://www.youtube.com/embed/XjBaj3He_ww"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+            <img class="disgaea6" id="img" src="Imagenes/D6.jpg" alt="portada disgaea 6">
         </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <iframe width="660" height="315" src="https://www.youtube.com/embed/nOsvsyIElRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item" >
+                    <iframe width="660" height="315" src="https://www.youtube.com/embed/MOUYyr54iiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">    
+                    <iframe class="video"  width="660" height="315" src="https://www.youtube.com/embed/ntHRAueqm3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe width="660" height="315" src="https://www.youtube.com/embed/CdkGNXfoF6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe class="video"  width="660" height="315" src="https://www.youtube.com/embed/K-Spl5ALths" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/XjBaj3He_ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
     </main>
     <footer>
         <div class="footer">

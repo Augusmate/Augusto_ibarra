@@ -17,7 +17,7 @@ html {
 }
 
 .index {
-    overflow-y: hidden;
+    overflow-y: hidden ; 
 }
 
 body {
@@ -27,10 +27,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: disgaea;
+    font-family: disgaea !important;
     margin: 0;
 }
 
+.dropdown-menu{
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%) !important;
+}
+
+.bg-light{
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%) !important;
+}
+
+.si a{
+    color: white !important;
+    -webkit-text-stroke: 1px black;
+}
 footer {
     color: white;
     -webkit-text-stroke: 1px black;
@@ -199,23 +211,20 @@ footer {
 
 
 .grid2 {
+    color: #ffff;
+    margin-top: 100px;
+    -webkit-text-stroke: 1px black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr 2fr 2fr 2fr 2fr 2fr 2fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 50px 50px;
     grid-template-areas:
         "d1 d1 disgaea"
-        "video1 video1 video1"
         "disgaea2 d2 d2"
-        "video2 video2 video2"
         "d3 d3 disgaea3"
-        "video3 video3 video3"
         "disgaea4 d4 d4"
-        "video4 video4 video4"
         "d5 d5 disgaea5"
-        "video5 video5 video5"
-        "disgaea6 d6 d6"
-        "video6 video6 video6";
+        "disgaea6 d6 d6";
 }
 
 .d1 {
@@ -226,9 +235,7 @@ footer {
     grid-area: disgaea;
 }
 
-.video1 {
-    grid-area: video1;
-}
+
 
 .d2 {
     grid-area: d2;
@@ -238,17 +245,13 @@ footer {
     grid-area: disgaea2;
 }
 
-.video2 {
-    grid-area: video2;
-}
+
 
 .d3 {
     grid-area: d3;
 }
 
-.disgaea3 {
-    grid-area: disgaea3;
-}
+
 
 .video3 {
     grid-area: video3;
@@ -262,9 +265,6 @@ footer {
     grid-area: d4;
 }
 
-.video4 {
-    grid-area: video4;
-}
 
 .d5 {
     grid-area: d5;
@@ -274,9 +274,6 @@ footer {
     grid-area: disgaea5;
 }
 
-.video5 {
-    grid-area: video5;
-}
 
 .disgaea6 {
     grid-area: disgaea6;
@@ -286,8 +283,25 @@ footer {
     grid-area: d6;
 }
 
-.video6 {
-    grid-area: video6;
+.carousel-inner{
+    margin-bottom: 200px;
+}
+
+.carousel-item{
+    margin-left: 350px;
+}
+
+.spinn{
+    display: flex;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+}
+
+.bordervideo{
+    margin-left: 300px;
 }
 
 #img {

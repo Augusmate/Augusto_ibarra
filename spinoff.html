@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,57 +10,141 @@
     <!-- link css -->
     <link rel="stylesheet" href="estilos/main.css">
     <link rel="stylesheet" href="estilos/responsive.css">
-    
+    <!-- link boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-        <header class="headerContainer">
-            <nav class="navContainer">
-                <ul>
-                    <img src="Imagenes/DisgaeaLogo.png" class="logo" alt="logo">
-                    <li><a href="index.html" class="navtext">inicio</a></li>
-                    <li><a href="que_es_disgaea.html" class="navtext">que es disgaea?</a></li>
-                    <li><a href="personajes.html" class="navtext">personajes</a></li>
-                    <li><a href="juegos_principales.html" class="navtext">juegos principales</a></li>
-                    <li><a href="spinoff.html" class="navtext">spinoff</a></li>
-                </ul>
-            </nav>
-        </header>
-        
+    <header class="headerContainer">
+        <nav class="si navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Imagenes/DisgaeaLogo.png" alt="" width="300" height="80">
+                    </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="que_es_disgaea.html">que es disgaea?</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Juegos principales
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="juegos_principales.html#D1">Disgaea</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D2">Disgaea 2</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D3">Disgaea 3</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D4">Disgaea 4</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D5">Disgaea 5</a></li>
+                                <li><a class="dropdown-item" href="juegos_principales.html#D6">Disgaea 6</a></li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="personajes.html">personajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="spinoff.html">Spinoff</a>
+                            </li>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <div>
-            <div class="dis2">
-                <p>A lo largo de los años Disgaea a tenido algunos juegos spinoff que cuentan nuevas historias de personajes conocidos o completamente nuevos</p>
+        <div class="spinn">
+            <div>
+                <p>A lo largo de los años Disgaea a tenido algunos juegos spinoff que cuentan nuevas historias de
+                    personajes conocidos o completamente nuevos</p>
                 <p>En esta pagina veremos algunos de ellos</p>
             </div>
-            <div class="spinn">
-                <h2><p id="j1">Disgaea Infinite</p></h2>
-                <p>El jugador asume el papel de Prinny a quien se le ordena investigar el intento de "asesinato" del señor supremo Laharl Disgaea Infinite comienza con un viaje en el tiempo donde el personaje principal poseerá a otros personajes para obtener información y recopilar pistas para resolver los misterios.El juego tiene lugar en el Inframundo de Disgaea: Hour of Darkness. Como tal, hay varios personajes importantes de ese reino que aparecen en el juego, incluidos Laharl, Etna, Flonne, Prinnies (y el personaje principal Prinny), Jennifer, el Capitán Gordon y Thursday. El juego también presenta a Mao y Raspberyl de Disgaea 3: Absence of Justice como personajes principales.</p>
+            <div>
+                <h2>
+                    <p id="j1">Disgaea Infinite</p>
+                </h2>
+                <p>El jugador asume el papel de Prinny a quien se le ordena investigar el intento de "asesinato" del
+                    señor supremo Laharl Disgaea Infinite comienza con un viaje en el tiempo donde el personaje
+                    principal poseerá a otros personajes para obtener información y recopilar pistas para resolver
+                    los misterios.El juego tiene lugar en el Inframundo de Disgaea: Hour of Darkness. Como tal, hay
+                    varios personajes importantes de ese reino que aparecen en el juego, incluidos Laharl, Etna,
+                    Flonne, Prinnies (y el personaje principal Prinny), Jennifer, el Capitán Gordon y Thursday. El
+                    juego también presenta a Mao y Raspberyl de Disgaea 3: Absence of Justice como personajes
+                    principales.</p>
             </div>
             <div class="bordervideo">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WsUwTEJ7pY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WsUwTEJ7pY4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
             </div>
-            <div class="spinn">
-                <h2><p id="j2">Prinny: can i really be a hero?</p></h2>
-                <p>estamos ante un producto derivado de la franquicia Disgaea que nos pone en la piel de un máximo de 1.000 Prinny que reciben por parte de Etna la tarea de dar con los ingredientes para fabricar el Ultra Postre. Una tarea con amenaza de muerte: si en diez horas no han cumplido su objetivo todos ellos serán destruidos por la malvada protagonista de Disgaea</p>
+            <div>
+                <h2>
+                    <p id="j2">Prinny: can i really be a hero?</p>
+                </h2>
+                <p>estamos ante un producto derivado de la franquicia Disgaea que nos pone en la piel de un máximo
+                    de 1.000 Prinny que reciben por parte de Etna la tarea de dar con los ingredientes para fabricar
+                    el Ultra Postre. Una tarea con amenaza de muerte: si en diez horas no han cumplido su objetivo
+                    todos ellos serán destruidos por la malvada protagonista de Disgaea</p>
                 <p>este juego conto con una secuela</p>
             </div>
             <div class="bordervideo">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/rQ64AlzOznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/rQ64AlzOznY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
             </div>
-            <div class="spinn">
-                <h2><p id="j3">Pucelle tactics</p></h2>
-                <p>La Pucelle tiene lugar en un reino llamado Paprica. La historia se centra en una pequeña iglesia, la Iglesia de la Santa Doncella, en la ciudad de Pot a Feu. Además del papel normal de una iglesia, tiene un grupo de cazadores de demonios entrenados, La Pucelle. Dos de los miembros más nuevos de La Pucelle son Prier, una niña de dieciséis años, y su hermano Culotte, de doce.Según los informes, el Príncipe Oscuro, el sirviente favorito del ángel caído Calamity, se levantará para azotar la tierra. Cuando el príncipe se levante, un guerrero, la Doncella de la Luz, lo desafiará y restaurará el equilibrio de la luz y la oscuridad. Prier espera ser la Doncella de la Luz.</p>
-            </div>
-            <div class="bordervideo">  
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/h2is7K_JEFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="spinn">
-                <h2><p id="j4">Disgaea RPG</p></h2>
-                <p>La historia del juego tiene lugar después de los eventos de los títulos principales de Disgaea. Continúa el desarrollo de los personajes principales de cada título e introduce varios personajes originales, en particular Lucy, Diez y Torachiyo. El juego presenta al jugador como un ser humano que ha sido convocado al Inframundo para crear al Overlord mas fuerte.</p>
+            <div>
+                <h2>
+                    <p id="j3">Pucelle tactics</p>
+                </h2>
+                <p>La Pucelle tiene lugar en un reino llamado Paprica. La historia se centra en una pequeña iglesia,
+                    la Iglesia de la Santa Doncella, en la ciudad de Pot a Feu. Además del papel normal de una
+                    iglesia, tiene un grupo de cazadores de demonios entrenados, La Pucelle. Dos de los miembros más
+                    nuevos de La Pucelle son Prier, una niña de dieciséis años, y su hermano Culotte, de doce.Según
+                    los informes, el Príncipe Oscuro, el sirviente favorito del ángel caído Calamity, se levantará
+                    para azotar la tierra. Cuando el príncipe se levante, un guerrero, la Doncella de la Luz, lo
+                    desafiará y restaurará el equilibrio de la luz y la oscuridad. Prier espera ser la Doncella de
+                    la Luz.</p>
             </div>
             <div class="bordervideo">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Ye5f3u6F9vQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/h2is7K_JEFY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div>
+                <h2>
+                    <p id="j4">Disgaea RPG</p>
+                </h2>
+                <p>La historia del juego tiene lugar después de los eventos de los títulos principales de Disgaea.
+                    Continúa el desarrollo de los personajes principales de cada título e introduce varios
+                    personajes originales, en particular Lucy, Diez y Torachiyo. El juego presenta al jugador como
+                    un ser humano que ha sido convocado al Inframundo para crear al Overlord mas fuerte.</p>
+            </div>
+            <div class="bordervideo">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Ye5f3u6F9vQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
     </main>
     <footer>
         <div class="footer">
@@ -68,4 +153,5 @@
         </div>
     </footer>
 </body>
+
 </html>
