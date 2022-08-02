@@ -1,4 +1,36 @@
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1024px) {
+    .grid {
+        margin-left: 60px;
+    }
+
+    .carousel-item{
+        margin-left: 180px;
+    }
+
+    .index_text{
+        width: 500px;
+        display: flex;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .usagif{
+        height: 200px;
+        width: 350px;
+        margin-left: 550px;
+    }
+
+    .carousel-item{
+        margin-left: 0px;
+        right: 160px;
+    }    
+    div iframe{
+        width: 660px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 978px) {
     .navContainer ul {
         flex-direction: column;
     }
@@ -22,16 +54,20 @@
     }
 
     .index_text{
-        margin-top: 25px;
-        margin-left: 320px;
-    }
-    
-    .usagif{
+        width: 500px;
         display: flex;
-        margin-top: 50px;
-        margin-left: 320px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .usagif{
         height: 200px;
         width: 350px;
+        margin-left: 550px;
+    }
+    
+    .bordervideo{
+        margin-left: -280px;
     }
 }
 
@@ -74,7 +110,182 @@
         margin-left: 50px;
         justify-content: space-between;
     }
+    
+    .grid {
+        color: #ffff;
+        margin-top: 50px;
+        margin-left: 120px;
+        -webkit-text-stroke: 1px black;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 55px 60px;
+        grid-template-areas:
+            "lahar"
+            "p1"
+            "adell"
+            "p2"
+            "mao"
+            "p3"
+            "valva"
+            "p4"
+            "killia"
+            "p5"
+            "zed"
+            "p6";
+        width: 500px;
+        height: 301px;
+    }
+    
+    
+    
+    .lahar {
+        grid-area: lahar;
+    }
+    
+    .p1 {
+        grid-area: p1;
+    }
+    
+    .p2 {
+        grid-area: p2;
+    }
+    
+    .adell {
+        grid-area: adell;
+    }
+    
+    .p3 {
+        grid-area: p3;
+    }
+    
+    .mao {
+        grid-area: mao;
+    }
+    
+    .p4 {
+        grid-area: p4;
+    }
+    
+    .valva {
+        grid-area: valva;
+    }
+    
+    .p5 {
+        grid-area: p5;
+    }
+    
+    .killia {
+        grid-area: killia;
+    }
+    
+    .zed {
+        grid-area: zed;
+    }
+    
+    .p6 {
+        grid-area: p6;
+    }
 
+    .laharl{
+        margin-left: 100px;
+    }
+
+    .killia{
+        margin-left: 100px;
+    }
+    
+    .bordervideo{
+        margin-left: 20px;
+    }
+    .grid2 {
+        color: #ffff;
+        margin-top: 50px;
+        -webkit-text-stroke: 1px black;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+        gap: 25px 50px;
+        grid-template-areas:
+            "disgaea1"
+            "d1"
+            "disgaea2"
+            "d2"
+            "disgaea3"
+            "d3"
+            "disgaea4"
+            "d4"
+            "disgaea5"
+            "d5"
+            "disgaea6"
+            "d6";
+            height: 9999px;
+    }
+    
+    .d1 {
+        grid-area: d1;
+    }
+    
+    .disgaea {
+        grid-area: disgaea;
+    }
+    
+    
+    
+    .d2 {
+        grid-area: d2;
+    }
+    
+    .disgaea2 {
+        grid-area: disgaea2;
+    }
+    
+    
+    
+    .d3 {
+        grid-area: d3;
+    }
+    
+    
+    
+    .video3 {
+        grid-area: video3;
+    }
+    
+    .disgaea4 {
+        grid-area: disgaea4;
+    }
+    
+    .d4 {
+        grid-area: d4;
+    }
+    
+    
+    .d5 {
+        grid-area: d5;
+    }
+    
+    .disgaea5 {
+        grid-area: disgaea5;
+    }
+    
+    
+    .disgaea6 {
+        grid-area: disgaea6;
+    }
+    
+    .d6 {
+        grid-area: d6;
+    }
+
+    .carousel-item{
+        margin-left: 0px;
+        right: 260px;
+    }    
+    div iframe{
+        width: 600px;
+        height: 300px;
+    }
 }
 @media screen and (max-width: 320px){
     .navContainer ul {
@@ -133,6 +344,187 @@
 
     .gif{
         margin-left: 20px;
+    }
+
+    .grid {
+        color: #ffff;
+        margin-top: 50px;
+        margin-left: 20px;
+        -webkit-text-stroke: 1px black;
+        display: grid;
+        grid-template-columns: 0.7fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 55px 60px;
+        grid-template-areas:
+            "lahar"
+            "p1"
+            "adell"
+            "p2"
+            "mao"
+            "p3"
+            "valva"
+            "p4"
+            "killia"
+            "p5"
+            "zed"
+            "p6";
+        width: 600px;
+        height: 201px;
+    }
+    
+    
+    
+    .lahar {
+        grid-area: lahar;
+    }
+    
+    .p1 {
+        grid-area: p1;
+    }
+    
+    .p2 {
+        grid-area: p2;
+    }
+    
+    .adell {
+        grid-area: adell;
+    }
+    
+    .p3 {
+        grid-area: p3;
+    }
+    
+    .mao {
+        grid-area: mao;
+    }
+    
+    .p4 {
+        grid-area: p4;
+    }
+    
+    .valva {
+        grid-area: valva;
+    }
+    
+    .p5 {
+        grid-area: p5;
+    }
+    
+    .killia {
+        grid-area: killia;
+    }
+    
+    .zed {
+        grid-area: zed;
+    }
+    
+    .p6 {
+        grid-area: p6;
+    }
+
+    #img{
+        height: 300px;
+        width: 200px;
+    }
+    
+    .spinn{
+        display: flex;
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .bordervideo{
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+    }
+
+    .grid2 {
+        color: #ffff;
+        margin-top: 50px;
+        -webkit-text-stroke: 1px black;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+        gap: 0px 0px;
+        grid-template-areas:
+            "disgaea1"
+            "d1"
+            "disgaea2"
+            "d2"
+            "disgaea3"
+            "d3"
+            "disgaea4"
+            "d4"
+            "disgaea5"
+            "d5"
+            "disgaea6"
+            "d6";
+            height: 9999px;
+    }
+    
+    .d1 {
+        grid-area: d1;
+    }
+    
+    .disgaea {
+        grid-area: disgaea;
+    }
+    
+    
+    
+    .d2 {
+        grid-area: d2;
+    }
+    
+    .disgaea2 {
+        grid-area: disgaea2;
+    }
+    
+    
+    
+    .d3 {
+        grid-area: d3;
+    }
+    
+    
+    
+    .video3 {
+        grid-area: video3;
+    }
+    
+    .disgaea4 {
+        grid-area: disgaea4;
+    }
+    
+    .d4 {
+        grid-area: d4;
+    }
+    
+    
+    .d5 {
+        grid-area: d5;
+    }
+    
+    .disgaea5 {
+        grid-area: disgaea5;
+    }
+    
+    
+    .disgaea6 {
+        grid-area: disgaea6;
+    }
+    
+    .d6 {
+        grid-area: d6;
+    }
+
+    .carousel-item{
+        margin-left: -290px;
+    }    
+    div iframe{
+        width: 200px;
+        height: 200px;
     }
 }
 

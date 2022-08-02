@@ -55,38 +55,6 @@ footer {
     width: 100%;
 }
 
-.navContainer ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-    list-style: none;
-    transition: all 0.2s;
-    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
-    background-size: cover;
-}
-
-.navContainer ul li a:hover {
-    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
-
-}
-
-.navContainer ul li a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    padding: 15px;
-}
-
-
-.navtext {
-    font-size: 15px;
-    color: #ffff;
-    -webkit-text-stroke: 1px black;
-}
-
 .index_text {
     display: flex;
     flex-direction: column;
@@ -219,7 +187,7 @@ footer {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 50px 50px;
     grid-template-areas:
-        "d1 d1 disgaea"
+        "d1 d1 disgaea1"
         "disgaea2 d2 d2"
         "d3 d3 disgaea3"
         "disgaea4 d4 d4"
@@ -287,7 +255,9 @@ footer {
     margin-bottom: 200px;
 }
 
-.carousel-item{
+div iframe{
+    width: 660px;
+    height: 350px;
     margin-left: 350px;
 }
 
@@ -301,7 +271,7 @@ footer {
 }
 
 .bordervideo{
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 #img {
