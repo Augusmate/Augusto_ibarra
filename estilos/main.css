@@ -61,7 +61,7 @@ footer {
     color: white;
     -webkit-text-stroke: 1px black;
     margin-top: 40px;
-    margin-left: 250px;
+    margin-left: 550px;
     width: 400px;
 }
 
@@ -70,10 +70,8 @@ footer {
 }
 
 .usagif {
-    display: flex;
     position: relative;
-    margin-top: -250px;
-    margin-left: 700px;
+    margin-left: 0px;
     height: 200px;
 }
 
