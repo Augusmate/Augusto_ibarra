@@ -1,0 +1,26 @@
+@import "nav";
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-image: url(../Imagenes/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: disgaea !important;
+    margin: 0;
+    p{
+        font-size: 20px;
+    }
+    .index {
+        overflow-y: hidden ; 
+    }
+}
+
