@@ -1,12 +1,12 @@
+nav .dropdown-menu {
+  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important; }
+
 .si a {
   color: white !important;
   -webkit-text-stroke: 1px black;
   font-size: 15px; }
 
 .bg-light {
-  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important; }
-
-.dropdown-menu {
   background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important; }
 
 footer {
