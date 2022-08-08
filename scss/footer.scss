@@ -1,0 +1,11 @@
+footer {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
+    background-size: cover;
+    width: 1400px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
