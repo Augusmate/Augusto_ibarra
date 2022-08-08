@@ -9,6 +9,9 @@ nav .dropdown-menu {
 .bg-light {
   background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important; }
 
+.dropdown-menu {
+  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important; }
+
 footer {
   color: white;
   -webkit-text-stroke: 1px black;
@@ -107,7 +110,12 @@ body {
   grid-template-columns: 0.7fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 35px 60px;
-  grid-template-areas: "p1 p1 lahar" "adell p2 p2" "p3 p3 mao" "valva p4 p4" "p5 p5 killia" "zed p6 p6";
+  grid-template-areas: "p1 p1 lahar"
+ "adell p2 p2"
+ "p3 p3 mao"
+ "valva p4 p4"
+ "p5 p5 killia"
+ "zed p6 p6";
   width: 900px;
   height: 301px; }
 
@@ -155,7 +163,12 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 50px 50px;
-  grid-template-areas: "d1 d1 disgaea1" "disgaea2 d2 d2" "d3 d3 disgaea3" "disgaea4 d4 d4" "d5 d5 disgaea5" "disgaea6 d6 d6"; }
+  grid-template-areas: "d1 d1 disgaea1"
+ "disgaea2 d2 d2"
+ "d3 d3 disgaea3"
+ "disgaea4 d4 d4"
+ "d5 d5 disgaea5"
+ "disgaea6 d6 d6"; }
 
 .d1 {
   grid-area: d1; }
@@ -271,7 +284,18 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 55px 60px;
-    grid-template-areas: "lahar" "p1" "adell" "p2" "mao" "p3" "valva" "p4" "killia" "p5" "zed" "p6";
+    grid-template-areas: "lahar"
+ "p1"
+ "adell"
+ "p2"
+ "mao"
+ "p3"
+ "valva"
+ "p4"
+ "killia"
+ "p5"
+ "zed"
+ "p6";
     width: 500px;
     height: 301px; }
   .lahar {
@@ -312,7 +336,18 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 25px 50px;
-    grid-template-areas: "disgaea1" "d1" "disgaea2" "d2" "disgaea3" "d3" "disgaea4" "d4" "disgaea5" "d5" "disgaea6" "d6";
+    grid-template-areas: "disgaea1"
+ "d1"
+ "disgaea2"
+ "d2"
+ "disgaea3"
+ "d3"
+ "disgaea4"
+ "d4"
+ "disgaea5"
+ "d5"
+ "disgaea6"
+ "d6";
     height: 9999px; }
   .d1 {
     grid-area: d1; }
@@ -393,7 +428,18 @@ body {
     grid-template-columns: 0.7fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 55px 60px;
-    grid-template-areas: "lahar" "p1" "adell" "p2" "mao" "p3" "valva" "p4" "killia" "p5" "zed" "p6";
+    grid-template-areas: "lahar"
+ "p1"
+ "adell"
+ "p2"
+ "mao"
+ "p3"
+ "valva"
+ "p4"
+ "killia"
+ "p5"
+ "zed"
+ "p6";
     width: 600px;
     height: 201px; }
   .lahar {
@@ -439,7 +485,18 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
-    grid-template-areas: "disgaea1" "d1" "disgaea2" "d2" "disgaea3" "d3" "disgaea4" "d4" "disgaea5" "d5" "disgaea6" "d6";
+    grid-template-areas: "disgaea1"
+ "d1"
+ "disgaea2"
+ "d2"
+ "disgaea3"
+ "d3"
+ "disgaea4"
+ "d4"
+ "disgaea5"
+ "d5"
+ "disgaea6"
+ "d6";
     height: 9999px; }
   .d1 {
     grid-area: d1; }
