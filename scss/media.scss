@@ -18,6 +18,7 @@
         height: 200px;
         width: 350px;
         margin-left: 550px;
+        bottom: 300px;
     }
 
     .carousel-item{
@@ -57,7 +58,7 @@
         width: 500px;
         display: flex;
         margin-top: 25px;
-        margin-left: 20px;
+        margin-left: 220px;
     }
 
     .usagif{
@@ -98,10 +99,13 @@
     .usagif{
         display: flex;
         margin-top: 50px;
-        margin-left: 250px;
+        margin-left: 50px;
         height: 200px;
         width: 350px;
     }
+
+    
+    
 
     .gif{
         display: flex;
@@ -286,8 +290,12 @@
         width: 600px;
         height: 300px;
     }
+
+    .video{
+        margin-left: 0px;
+    }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px)  {
     .navContainer ul {
         flex-direction: column;
         height: 200px;
@@ -317,9 +325,9 @@
     }
 
     .index_text{
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 25px;
-        margin-left: 75px;
+        margin-left: 50px;
         width: 200px;
     }
 
@@ -335,11 +343,11 @@
     }
 
     .usagif{
-        display: flex;
-        margin-top: 50px;
+        margin-top: 5px;
         margin-left: 0px;
-        height: 200px;
         width: 200px;
+        height: 200px;
+        bottom: 0;
     }
 
     .gif{
@@ -347,6 +355,7 @@
     }
 
     .grid {
+        font-size: 15px;
         color: #ffff;
         margin-top: 50px;
         margin-left: 20px;
@@ -368,7 +377,7 @@
             "p5"
             "zed"
             "p6";
-        width: 600px;
+        width: 50px;
         height: 201px;
     }
     
@@ -525,6 +534,10 @@
     div iframe{
         width: 200px;
         height: 200px;
+    }
+    
+    .video{
+        opacity: 0;
     }
 }
 
