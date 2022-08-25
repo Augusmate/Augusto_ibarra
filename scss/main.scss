@@ -1,0 +1,314 @@
+@import "nav";
+@import "footer";
+
+
+@font-face {
+    font-family: disgaea;
+    src: url(../font/Boge.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h2{
+    color: #e71d1d;
+}
+
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+    background-image: url(../Imagenes/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: disgaea;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.usagif {
+    position: relative;
+    margin-left: 0px;
+    height: 200px;
+}
+
+.index_text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    margin-top: 40px;
+    margin-left: 550px;
+    width: 400px;
+}
+
+.h1Index {
+    margin-bottom: 40px;
+}
+
+.gif {
+    display: flex;
+    height: 200px;
+    width: 200x;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.hamburguesa {
+    color: #ffff;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+
+.pan {
+    margin-top: 50px;
+}
+
+.papafrita {
+    margin-top: 50px;
+}
+
+.tomate {
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    margin-bottom: 200px;
+}
+
+div iframe {
+    width: 660px;
+    height: 350px;
+    margin-left: 350px;
+}
+
+.spinn {
+    display: flex;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+}
+
+.bordervideo {
+    margin-left: 100px;
+}
+
+#img {
+    height: 500px;
+    width: 400px;
+}
+
+
+
+.grid {
+    color: #ffff;
+    margin-top: 50px;
+    margin-left: 200px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px 60px;
+    grid-template-areas:
+        "p1 p1 lahar"
+        "adell p2 p2"
+        "p3 p3 mao"
+        "valva p4 p4"
+        "p5 p5 killia"
+        "zed p6 p6";
+    width: 900px;
+    height: 301px;
+}
+
+
+
+.lahar {
+    grid-area: lahar;
+}
+
+.p1 {
+    grid-area: p1;
+}
+
+.p2 {
+    grid-area: p2;
+}
+
+.adell {
+    grid-area: adell;
+}
+
+.p3 {
+    grid-area: p3;
+}
+
+.mao {
+    grid-area: mao;
+}
+
+.p4 {
+    grid-area: p4;
+}
+
+.valva {
+    grid-area: valva;
+}
+
+.p5 {
+    grid-area: p5;
+}
+
+.killia {
+    grid-area: killia;
+}
+
+.zed {
+    grid-area: zed;
+}
+
+.p6 {
+    grid-area: p6;
+}
+
+
+.grid2 {
+    color: #ffff;
+    margin-top: 100px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px 50px;
+    grid-template-areas:
+        "d1 d1 disgaea1"
+        "disgaea2 d2 d2"
+        "d3 d3 disgaea3"
+        "disgaea4 d4 d4"
+        "d5 d5 disgaea5"
+        "disgaea6 d6 d6";
+}
+
+.d1 {
+    grid-area: d1;
+}
+
+.disgaea {
+    grid-area: disgaea;
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.disgaea2 {
+    grid-area: disgaea2;
+}
+
+.d3 {
+    grid-area: d3;
+}
+
+.disgaea4 {
+    grid-area: disgaea4;
+}
+
+.d4 {
+    grid-area: d4;
+}
+
+
+.d5 {
+    grid-area: d5;
+}
+
+.disgaea5 {
+    grid-area: disgaea5;
+}
+
+
+.disgaea6 {
+    grid-area: disgaea6;
+}
+
+.d6 {
+    grid-area: d6;
+}
+
+@mixin container($ancho, $alto, $color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    border-radius: 5%;
+    text-align: center;
+    margin: 5px;
+}
+
+.box {
+    @include container(px, 50px, #0c45be)
+}
+
+.box_2 {
+    @include container(px, 50px, #e71d1d)
+}
+
+.box_3 {
+    @include container(px, 50px, #af9f9f)
+}
+
+.box_4 {
+    @include container(px, 50px, #141f25)
+}
+
+.box_5 {
+    @include container(px, 50px, #191ba8)
+}
+
+.box_6 {
+    @include container(px, 50px, #1974a8)
+}
+
+
+%si {
+    width: 200px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 2px;
+}
+
+.extend {
+    @extend %si;
+    background-color: #FF8516;
+}
+
+%talvez {
+    width: 350px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 2px;
+}
+
+.extend_2 {
+    @extend %talvez;
+    background-color: #FF8516;
+}
+
+@import "media";

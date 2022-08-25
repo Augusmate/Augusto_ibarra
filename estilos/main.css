@@ -1,279 +1,869 @@
+nav .dropdown-menu {
+  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important;
+}
+
+.si a {
+  color: white !important;
+  -webkit-text-stroke: 1px black;
+  font-size: 15px;
+}
+
+.bg-light {
+  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important;
+}
+
+.dropdown-menu {
+  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%) !important;
+}
+
+footer {
+  color: white;
+  -webkit-text-stroke: 1px black;
+  background: linear-gradient(180deg, #2a4f9c 4%, #6f0bc8 52%, #020024 100%);
+  background-size: cover;
+  width: 1400px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+}
+
+@font-face {
+  font-family: disgaea;
+  src: url(../font/Boge.ttf);
+}
+
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100%;
-    overflow-x: hidden;
+  height: 100%;
+  overflow-x: hidden;
 }
 
-/* font de la pag */
-
-@font-face {
-    font-family: disgaea;
-    src: url(../font/Boge.ttf);
-}
-
-.index {
-    overflow-y: hidden ; 
+h2 {
+  color: #e71d1d;
 }
 
 body {
-    min-height: 100%;
-    overflow-x: hidden;
-    background-image: url(../Imagenes/bg1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: disgaea !important;
-    margin: 0;
-}
-
-.dropdown-menu{
-    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%) !important;
-}
-
-.bg-light{
-    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%) !important;
-}
-
-.si a{
-    color: white !important;
-    -webkit-text-stroke: 1px black;
-}
-footer {
-    color: white;
-    -webkit-text-stroke: 1px black;
-    background: linear-gradient(180deg, rgba(42, 79, 156, 1) 4%, rgba(111, 11, 200, 1) 52%, rgba(2, 0, 36, 1) 100%);
-    background-size: cover;
-    width: 1400px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.index_text {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    margin-top: 40px;
-    margin-left: 550px;
-    width: 400px;
-}
-
-.h1Index {
-    margin-bottom: 40px;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-image: url(../Imagenes/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: disgaea;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke: 1px black;
 }
 
 .usagif {
-    position: relative;
-    margin-left: 0px;
-    height: 200px;
+  position: relative;
+  margin-left: 0px;
+  height: 200px;
+}
+
+.index_text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  margin-top: 40px;
+  margin-left: 550px;
+  width: 400px;
+}
+
+.h1Index {
+  margin-bottom: 40px;
 }
 
 .gif {
-    display: flex;
-    height: 200px;
-    width: 200x;
-    margin-left: 100px;
-    margin-bottom: 60px;
-    justify-content: space-between;
+  display: flex;
+  height: 200px;
+  width: 200x;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  justify-content: space-between;
 }
 
 .hamburguesa {
-    color: #ffff;
-    -webkit-text-stroke: 1px black;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    align-items: center;
+  color: #ffff;
+  -webkit-text-stroke: 1px black;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
 }
 
 .pan {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .papafrita {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .tomate {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-.grid {
-    color: #ffff;
-    margin-top: 50px;
-    margin-left: 200px;
-    -webkit-text-stroke: 1px black;
-    display: grid;
-    grid-template-columns: 0.7fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 35px 60px;
-    grid-template-areas:
-        "p1 p1 lahar"
-        "adell p2 p2"
-        "p3 p3 mao"
-        "valva p4 p4"
-        "p5 p5 killia"
-        "zed p6 p6";
-    width: 900px;
-    height: 301px;
+.carousel-inner {
+  margin-bottom: 200px;
 }
 
-
-
-.lahar {
-    grid-area: lahar;
+div iframe {
+  width: 660px;
+  height: 350px;
+  margin-left: 350px;
 }
 
-.p1 {
-    grid-area: p1;
+.spinn {
+  display: flex;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
 }
 
-.p2 {
-    grid-area: p2;
-}
-
-.adell {
-    grid-area: adell;
-}
-
-.p3 {
-    grid-area: p3;
-}
-
-.mao {
-    grid-area: mao;
-}
-
-.p4 {
-    grid-area: p4;
-}
-
-.valva {
-    grid-area: valva;
-}
-
-.p5 {
-    grid-area: p5;
-}
-
-.killia {
-    grid-area: killia;
-}
-
-.zed {
-    grid-area: zed;
-}
-
-.p6 {
-    grid-area: p6;
-}
-
-
-.grid2 {
-    color: #ffff;
-    margin-top: 100px;
-    -webkit-text-stroke: 1px black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
-    gap: 50px 50px;
-    grid-template-areas:
-        "d1 d1 disgaea1"
-        "disgaea2 d2 d2"
-        "d3 d3 disgaea3"
-        "disgaea4 d4 d4"
-        "d5 d5 disgaea5"
-        "disgaea6 d6 d6";
-}
-
-.d1 {
-    grid-area: d1;
-}
-
-.disgaea {
-    grid-area: disgaea;
-}
-
-
-
-.d2 {
-    grid-area: d2;
-}
-
-.disgaea2 {
-    grid-area: disgaea2;
-}
-
-
-
-.d3 {
-    grid-area: d3;
-}
-
-
-
-.video3 {
-    grid-area: video3;
-}
-
-.disgaea4 {
-    grid-area: disgaea4;
-}
-
-.d4 {
-    grid-area: d4;
-}
-
-
-.d5 {
-    grid-area: d5;
-}
-
-.disgaea5 {
-    grid-area: disgaea5;
-}
-
-
-.disgaea6 {
-    grid-area: disgaea6;
-}
-
-.d6 {
-    grid-area: d6;
-}
-
-.carousel-inner{
-    margin-bottom: 200px;
-}
-
-div iframe{
-    width: 660px;
-    height: 350px;
-    margin-left: 350px;
-}
-
-.spinn{
-    display: flex;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    flex-direction: column;
-    margin: 50px;
-    padding: 50px;
-}
-
-.bordervideo{
-    margin-left: 100px;
+.bordervideo {
+  margin-left: 100px;
 }
 
 #img {
-    height: 500px;
-    width: 400px;
+  height: 500px;
+  width: 400px;
 }
 
+.grid {
+  color: #ffff;
+  margin-top: 50px;
+  margin-left: 200px;
+  -webkit-text-stroke: 1px black;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 35px 60px;
+  grid-template-areas: "p1 p1 lahar"
+    "adell p2 p2"
+    "p3 p3 mao"
+    "valva p4 p4"
+    "p5 p5 killia"
+    "zed p6 p6";
+  width: 900px;
+  height: 301px;
+}
+
+.lahar {
+  grid-area: lahar;
+}
+
+.p1 {
+  grid-area: p1;
+}
+
+.p2 {
+  grid-area: p2;
+}
+
+.adell {
+  grid-area: adell;
+}
+
+.p3 {
+  grid-area: p3;
+}
+
+.mao {
+  grid-area: mao;
+}
+
+.p4 {
+  grid-area: p4;
+}
+
+.valva {
+  grid-area: valva;
+}
+
+.p5 {
+  grid-area: p5;
+}
+
+.killia {
+  grid-area: killia;
+}
+
+.zed {
+  grid-area: zed;
+}
+
+.p6 {
+  grid-area: p6;
+}
+
+.grid2 {
+  color: #ffff;
+  margin-top: 100px;
+  -webkit-text-stroke: 1px black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px 50px;
+  grid-template-areas: "d1 d1 disgaea1"
+    "disgaea2 d2 d2"
+    "d3 d3 disgaea3"
+    "disgaea4 d4 d4"
+    "d5 d5 disgaea5"
+    "disgaea6 d6 d6";
+}
+
+.d1 {
+  grid-area: d1;
+}
+
+.disgaea {
+  grid-area: disgaea;
+}
+
+.d2 {
+  grid-area: d2;
+}
+
+.disgaea2 {
+  grid-area: disgaea2;
+}
+
+.d3 {
+  grid-area: d3;
+}
+
+.disgaea4 {
+  grid-area: disgaea4;
+}
+
+.d4 {
+  grid-area: d4;
+}
+
+.d5 {
+  grid-area: d5;
+}
+
+.disgaea5 {
+  grid-area: disgaea5;
+}
+
+.disgaea6 {
+  grid-area: disgaea6;
+}
+
+.d6 {
+  grid-area: d6;
+}
+
+.box {
+  width: px;
+  height: 50px;
+  background-color: #0c45be;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_2 {
+  width: px;
+  height: 50px;
+  background-color: #e71d1d;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_3 {
+  width: px;
+  height: 50px;
+  background-color: #af9f9f;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_4 {
+  width: px;
+  height: 50px;
+  background-color: #141f25;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_5 {
+  width: px;
+  height: 50px;
+  background-color: #191ba8;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_6 {
+  width: px;
+  height: 50px;
+  background-color: #1974a8;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.extend {
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+}
+
+.extend {
+  background-color: #FF8516;
+}
+
+.extend_2 {
+  width: 350px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+}
+
+.extend_2 {
+  background-color: #FF8516;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    margin-left: 60px;
+  }
+
+  .carousel-item {
+    margin-left: 180px;
+  }
+
+  .index_text {
+    width: 500px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .usagif {
+    height: 200px;
+    width: 350px;
+    margin-left: 550px;
+    bottom: 300px;
+  }
+
+  .carousel-item {
+    margin-left: 0px;
+    right: 160px;
+  }
+
+  div iframe {
+    width: 660px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .navContainer ul {
+    flex-direction: column;
+  }
+
+  .navtext {
+    font-size: 25px;
+  }
+
+  body {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+
+  .index {
+    overflow-y: scroll;
+  }
+
+  .index_text {
+    width: 500px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 220px;
+  }
+
+  .usagif {
+    height: 200px;
+    width: 350px;
+    margin-left: 550px;
+  }
+
+  .bordervideo {
+    margin-left: -280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer ul {
+    flex-direction: column;
+  }
+
+  .index {
+    overflow-y: scroll;
+  }
+
+  .navtext {
+    font-size: 15px;
+    height: 80px;
+  }
+
+  body {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+
+  .usagif {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 200px;
+    width: 350px;
+    bottom: 0px;
+  }
+
+  .gif {
+    display: flex;
+    height: 100px;
+    width: 100x;
+    margin-left: 50px;
+    justify-content: space-between;
+  }
+
+  .grid {
+    color: #ffff;
+    margin-top: 50px;
+    margin-left: 120px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 55px 60px;
+    grid-template-areas: "lahar"
+      "p1"
+      "adell"
+      "p2"
+      "mao"
+      "p3"
+      "valva"
+      "p4"
+      "killia"
+      "p5"
+      "zed"
+      "p6";
+    width: 500px;
+    height: 301px;
+  }
+
+  .lahar {
+    grid-area: lahar;
+  }
+
+  .p1 {
+    grid-area: p1;
+  }
+
+  .p2 {
+    grid-area: p2;
+  }
+
+  .adell {
+    grid-area: adell;
+  }
+
+  .p3 {
+    grid-area: p3;
+  }
+
+  .mao {
+    grid-area: mao;
+  }
+
+  .p4 {
+    grid-area: p4;
+  }
+
+  .valva {
+    grid-area: valva;
+  }
+
+  .p5 {
+    grid-area: p5;
+  }
+
+  .killia {
+    grid-area: killia;
+  }
+
+  .zed {
+    grid-area: zed;
+  }
+
+  .p6 {
+    grid-area: p6;
+  }
+
+  .laharl {
+    margin-left: 100px;
+  }
+
+  .killia {
+    margin-left: 100px;
+  }
+
+  .bordervideo {
+    margin-left: 20px;
+  }
+
+  .grid2 {
+    color: #ffff;
+    margin-top: 50px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px 50px;
+    grid-template-areas: "disgaea1"
+      "d1"
+      "disgaea2"
+      "d2"
+      "disgaea3"
+      "d3"
+      "disgaea4"
+      "d4"
+      "disgaea5"
+      "d5"
+      "disgaea6"
+      "d6";
+    height: 9999px;
+  }
+
+  .d1 {
+    grid-area: d1;
+  }
+
+  .disgaea {
+    grid-area: disgaea;
+  }
+
+  .d2 {
+    grid-area: d2;
+  }
+
+  .disgaea2 {
+    grid-area: disgaea2;
+  }
+
+  .d3 {
+    grid-area: d3;
+  }
+
+  .video3 {
+    grid-area: video3;
+  }
+
+  .disgaea4 {
+    grid-area: disgaea4;
+  }
+
+  .d4 {
+    grid-area: d4;
+  }
+
+  .d5 {
+    grid-area: d5;
+  }
+
+  .disgaea5 {
+    grid-area: disgaea5;
+  }
+
+  .disgaea6 {
+    grid-area: disgaea6;
+  }
+
+  .d6 {
+    grid-area: d6;
+  }
+
+  .carousel-item {
+    margin-left: 0px;
+    right: 260px;
+  }
+
+  div iframe {
+    width: 600px;
+    height: 300px;
+  }
+
+  .video {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navContainer ul {
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .index {
+    overflow-y: scroll;
+  }
+
+  .navtext {
+    font-size: 7px;
+    align-content: center;
+    height: 5px;
+    padding: 0;
+  }
+
+  body {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+  }
+
+  .index_text {
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 200px;
+  }
+
+  .h1Index {
+    font-size: 15px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+    width: 300px;
+  }
+
+  .usagif {
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+  }
+
+  .gif {
+    margin-left: 20px;
+  }
+
+  .grid {
+    font-size: 15px;
+    color: #ffff;
+    margin-top: 50px;
+    margin-left: 20px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 55px 60px;
+    grid-template-areas: "lahar"
+      "p1"
+      "adell"
+      "p2"
+      "mao"
+      "p3"
+      "valva"
+      "p4"
+      "killia"
+      "p5"
+      "zed"
+      "p6";
+    width: 50px;
+    height: 201px;
+  }
+
+  .lahar {
+    grid-area: lahar;
+  }
+
+  .p1 {
+    grid-area: p1;
+  }
+
+  .p2 {
+    grid-area: p2;
+  }
+
+  .adell {
+    grid-area: adell;
+  }
+
+  .p3 {
+    grid-area: p3;
+  }
+
+  .mao {
+    grid-area: mao;
+  }
+
+  .p4 {
+    grid-area: p4;
+  }
+
+  .valva {
+    grid-area: valva;
+  }
+
+  .p5 {
+    grid-area: p5;
+  }
+
+  .killia {
+    grid-area: killia;
+  }
+
+  .zed {
+    grid-area: zed;
+  }
+
+  .p6 {
+    grid-area: p6;
+  }
+
+  #img {
+    height: 300px;
+    width: 200px;
+  }
+
+  .spinn {
+    display: flex;
+    width: 300px;
+    margin-left: 0px;
+  }
+
+  .bordervideo {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+
+  .grid2 {
+    color: #ffff;
+    margin-top: 50px;
+    -webkit-text-stroke: 1px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "disgaea1"
+      "d1"
+      "disgaea2"
+      "d2"
+      "disgaea3"
+      "d3"
+      "disgaea4"
+      "d4"
+      "disgaea5"
+      "d5"
+      "disgaea6"
+      "d6";
+    height: 9999px;
+  }
+
+  .d1 {
+    grid-area: d1;
+  }
+
+  .disgaea {
+    grid-area: disgaea;
+  }
+
+  .d2 {
+    grid-area: d2;
+  }
+
+  .disgaea2 {
+    grid-area: disgaea2;
+  }
+
+  .d3 {
+    grid-area: d3;
+  }
+
+  .video3 {
+    grid-area: video3;
+  }
+
+  .disgaea4 {
+    grid-area: disgaea4;
+  }
+
+  .d4 {
+    grid-area: d4;
+  }
+
+  .d5 {
+    grid-area: d5;
+  }
+
+  .disgaea5 {
+    grid-area: disgaea5;
+  }
+
+  .disgaea6 {
+    grid-area: disgaea6;
+  }
+
+  .d6 {
+    grid-area: d6;
+  }
+
+  .carousel-item {
+    margin-left: -290px;
+  }
+
+  div iframe {
+    width: 200px;
+    height: 200px;
+  }
+
+  .video {
+    opacity: 0;
+  }
+}
